@@ -1,0 +1,100 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #8a51fc;
+}
+
+.logo {
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main {
+    width: 375px;
+    background: #f4f4f4;
+    border-radius: 20px;
+    margin: 0 auto;
+    padding: 44px 24px 23px;
+}
+
+label {
+    color: #BBBBBB;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+select,
+input {
+    border-radius: 4px;
+    background: #ffffff;
+    border: 1px solid #bbbbbb;
+    height: 44px;
+    width: 100%;
+    margin-bottom: 24px;
+    appearance: none;
+    /*tira as setas*/
+    padding-left: 18px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #555555;
+    cursor: pointer;
+
+}
+
+button {
+    width: 100%;
+    border-radius: 5px;
+    background: #772FD3;
+    border: none;
+    height: 48px;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.8px;
+}
+button:active{
+    opacity: 0.6;
+}
+section{
+    border: 1px solid #772FD3;
+    margin-top: 36px;
+    border-radius: 20px;
+    width: 327px;
+    padding: 12px;
+    display: flex;
+    flex-direction:column ;
+    align-items: center;
+}
+.pic{
+    margin: 15px 0;
+}
+.money{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+}
+.moeda{
+color: #777777;
+font-size: 14px;
+}
+.value{
+font-size: 20px;
+font-weight: 700;
+color: #555555;
+}
